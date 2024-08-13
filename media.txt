@@ -1,0 +1,17 @@
+inicio
+
+    real: notaF, n1, n2, n3 ,n4;
+
+    leia(n1, n2, n3, n4);
+
+    notaF = (n1 + n2 + n3 + n4) / 4;
+
+    escreva(notaF)
+
+    if(notaF >= 7);
+        escreva(Aluno aprovado!);
+    else(
+        escreva(Aluno reprovado!);
+    )
+
+fim
